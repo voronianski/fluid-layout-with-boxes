@@ -1,0 +1,162 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Containers */
+.container {
+    width: 90%;
+    border-radius: 3px;
+}
+.container,
+.container *,
+.container *:after,
+.container *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.max-960 {
+    background-image: url('../images/swirl_pattern.png');
+    border: 10px solid transparent;
+    max-width: 960px;
+    margin: 35px auto;
+    padding: 30px 0;
+}
+.max-860 {
+    background-color: #bdc3c7;
+    border: 15px solid transparent;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.vd-box-hover .max-960,
+.vd-box-hover .max-860 {
+    border-color: #333;
+}
+
+/* Boxes Layout */
+.vd-grid-box {
+    display: inline-block;
+    padding: 5px;
+}
+.vd-grid-6in1,
+.vd-grid-6in2,
+.vd-grid-6in3 {
+    width: 33.333%;
+}
+.vd-grid-6in4,
+.vd-grid-6in5 {
+    width: 50%;
+}
+.vd-grid-6in6 {
+    width: 100%;
+}
+.vd-grid-red-bg .vd-box {
+    background-color: #c0392b;
+}
+.vd-grid-green-bg .vd-box {
+    background-color: #27ae60;
+}
+.vd-grid-blue-bg .vd-box {
+    background-color: #2980b9;
+}
+.vd-grid-highlighted .vd-box {
+    border-color: #f1c40f;
+}
+
+/* Box */
+.vd-box {
+    color: #fff;
+    background-color: #8e44ad;
+    border: 5px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.vd-box:hover {
+    border-color: #333;
+}
+.vd-box-inner {
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.vd-box-header {
+    top: 0;
+}
+.vd-box-content {
+    bottom: 0;
+}
+.vd-box-cell-left {
+    float: left;
+}
+.vd-box-cell-right {
+    float: right;
+}
+.vd-grid-6in1 .vd-box-content .vd-box-cell-left,
+.vd-grid-6in3 .vd-box-content .vd-box-cell-right,
+.vd-grid-6in4 .vd-box-content .vd-box-cell-left,
+.vd-grid-6in5 .vd-box-content .vd-box-cell-right,
+.vd-grid-6in6 .vd-box-content .vd-box-cell-left,
+.vd-grid-6in6 .vd-box-content .vd-box-cell-right {
+    display: none;
+}
+.vd-box-close {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: -3px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.vd-box-close:hover {
+    color: #000;
+}
+
+/* Stats widget */
+.vd-stats {
+    background-color: #fff;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+    cursor: default;
+}
+.vd-reset-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 2px 6px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* Notify popup */
+.vd-notify-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.vd-notify-box {
+    background: #2c3e50;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: default;
+    border-radius: 3px;
+}

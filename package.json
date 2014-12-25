@@ -1,0 +1,26 @@
+{
+  "name": "klarna-task",
+  "version": "1.0.0",
+  "description": "Fluid Layout with Boxes (version 140805)",
+  "main": "js/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --single-run --browsers PhantomJS"
+  },
+  "keywords": [
+    "klarna",
+    "javascript"
+  ],
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "karma": "^0.12.28",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0"
+  }
+}
