@@ -1,5 +1,5 @@
 /*global VDUtils*/
-describe('row data store', function () {
+describe('utils', function () {
     var utils;
 
     describe('when creating new instance', function () {
