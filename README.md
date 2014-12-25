@@ -1,8 +1,8 @@
 # Klarna Task
 
-<img src="https://dl.dropboxusercontent.com/u/100463011/klarna-logo.jpg" width="150" align="right">
-
 > My solution to the provided [_"Fluid Layout with Boxes" (version 140805)_](https://dl.dropboxusercontent.com/u/100463011/frontend_task_checkout_140805.pdf).
+
+<img src="https://dl.dropboxusercontent.com/u/100463011/klarna-logo.jpg" width="150">
 
 ## About
 
