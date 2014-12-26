@@ -101,14 +101,14 @@
             if (bodyClassName.match('vd-box-hover') || !elClassName.match('vd-box')) {
                 return;
             }
-            document.body.className += 'vd-box-hover';
+            document.body.className += ' vd-box-hover';
         };
 
         privateMethods.onBoxHoverOut = function (e) {
             var elClassName = (e.target || e.srcElement).className;
             var bodyClassName = document.body.className;
             if (bodyClassName.match('vd-box-hover') && elClassName.match('vd-box')) {
-                document.body.className = '';
+                document.body.className.replace('vd-box-hover', '');
             }
         };
 
